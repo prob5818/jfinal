@@ -66,7 +66,7 @@ class ActionInvocationWrapper extends ActionInvocation {
 	}
 	
 	@Override
-	public String getMethodName() {
+	public String getMethodName() { 
 		return actionInvocation.getMethodName();
 	}
 	
@@ -75,7 +75,7 @@ class ActionInvocationWrapper extends ActionInvocation {
 	 */
 	@Override
 	public String getViewPath() {
-		return actionInvocation.getViewPath();
+		return actionInvocation.getViewPath(); 
 	}
 	
 	/*
